@@ -382,6 +382,10 @@ http://www.tooplate.com/view/2098-health
     background-color: transparent;
   }
 
+  .navbar-nav {
+    margin-left:100px;
+  }
+
 
 
   /*---------------------------------------
@@ -576,12 +580,12 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   .tedavi-thumb {
-    background-color: #f9f9f9;
+    background-color: #94c5d407;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    border: 0.1px solid rgba(128, 128, 128, 0.10);
+    border: 0.01px solid rgba(128, 128, 128, 0.08);
   }
 
   .tedavi-info {
@@ -1028,6 +1032,20 @@ http://www.tooplate.com/view/2098-health
     .angle-up-btn {
       bottom: 10em;
     }
+
+    .navbar-nav {
+      margin-left:110px;
+    }
+
+    #doctor-logo {
+      top:25px
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .navbar-nav {
+      margin-left:130px;
+    }
   }
 
   @media only screen and (max-width: 992px) {
@@ -1046,9 +1064,13 @@ http://www.tooplate.com/view/2098-health
       padding-left: 0;
       padding-bottom: 0;
     }
+
+    .navbar-nav {
+      margin-left:160px;
+    }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
       border-color: transparent;
     }
@@ -1068,6 +1090,10 @@ http://www.tooplate.com/view/2098-health
     #appointment-form {
       padding-top: 4em;
       padding-bottom: 4em;
+    }
+    .navbar-nav {
+      margin-left:0px;
+      margin-top: 20px;
     }
 
     footer {
@@ -1091,6 +1117,10 @@ http://www.tooplate.com/view/2098-health
     }
     .slider .item-first {
       background-position: 0ch;
+    }
+
+    #doctor-logo {
+      top:5px
     }
   }
 
