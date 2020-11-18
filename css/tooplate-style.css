@@ -153,7 +153,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .news-info {
-    padding: 30px;
+    padding: 20px;
     text-align: left;
   }
   .news-info span {
@@ -186,11 +186,17 @@ http://www.tooplate.com/view/2098-health
   }
 
 
-  #about, #team, #news,
-  #news-detail {
+  #about {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  #team, #news,
+  #tedavi, #hastalik {
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 50px;
   }
 
   #news, #service {
@@ -304,7 +310,6 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
-
   .navbar-default {
     background: #ffffff;
     box-shadow: 0 2px 8px rgba(0,0,0,.075);
@@ -520,12 +525,13 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       ILGILENDIGIM HASTALIKLAR              
   -----------------------------------------*/
-
+  .hastalik-info {
+    background-color: rgba(240, 248, 255, 0.4); 
+    padding:5;
+  }
   #hastalik {
     background: url('../images/hastalik.jpg') no-repeat top center;
     background-size: cover;
-    padding-top: 150px;
-    padding-bottom: 150px;
   }
 
   #hastalik ul {
@@ -536,15 +542,21 @@ http://www.tooplate.com/view/2098-health
 
   #hastalik li {
     color: #535353;
-    margin: 20px 0;
+    margin: 15px 0px;
     font-size: 16px;
+  }
+
+  #hastalik h2 {
+    padding-left: 5px;
   }
   /*---------------------------------------
       MESLEKI TECRÜBELERIM              
   -----------------------------------------*/
+  #team-title h2 {
+    margin: 10px;
+  }
 
   .team-thumb {
-    background-color: #f9f9f9;
     border-radius: 0 0 10px 10px;
     position: relative;
     overflow: hidden;
@@ -552,7 +564,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .team-info {
-    padding: 20px 30px 0 30px;
+    padding: 10px 10px 0 10px;
   }
 
   .team-contact-info {
@@ -578,7 +590,10 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       TEDAVI YÖNTEMLERIM              
   -----------------------------------------*/
-
+  #tedavi-div {
+    background-color: white;
+    margin:10px 0;
+  }
   .tedavi-thumb {
     background-color: #94c5d407;
     border-radius: 10px;
@@ -1074,6 +1089,10 @@ http://www.tooplate.com/view/2098-health
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
       border-color: transparent;
     }
+
+    .navbar-default .navbar-static-top {
+      padding:10px 0 20px
+    }
     .navbar-default .navbar-nav li.appointment-btn {
       margin-left: 15px;
     }
@@ -1122,6 +1141,45 @@ http://www.tooplate.com/view/2098-health
     #doctor-logo {
       top:5px
     }
+
+    #hastalik-container, #tecrube-container, #tedavi-container, #ekipman-container{
+      padding:0 10px;
+    }
+
+    #hastalik ul {
+      padding: 0 10px;
+    }
+
+    #about,  #team, #hastalik, #tedavi {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+     #tedavi {
+      padding-top: 0px;
+      padding-bottom: 20px;
+    }
+
+    .tedavi-info {
+      padding: 5px 10px;
+    }
+
+    #news{
+      padding-top: 40px;
+      padding-bottom: 20px;
+    }
+
+    .news-info {
+      padding: 15px;
+      text-align: left;
+
+    #tedavi-div, #ekipman-div{
+      padding:0 10px;
+      margin:10px;
+    }
+    #tedavi-title {
+      margin:0;
+    }
   }
 
   @media only screen and (max-width: 639px) {
@@ -1156,6 +1214,11 @@ http://www.tooplate.com/view/2098-health
   @media only screen and (max-width: 425px) {
     #bilgi {
       display: none;
+      }
+
+      #team, #news,
+      #tedavi {
+        padding-top: 50px;
       }
 
   }
