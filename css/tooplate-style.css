@@ -523,6 +523,39 @@ http://www.tooplate.com/view/2098-health
   }
 
   /*---------------------------------------
+     GUNCEL             
+  -----------------------------------------*/
+
+.guncel-info {
+  width: 80%;
+  margin:auto;
+}
+.guncel-info p {
+  text-align: justify;
+  margin:10px 0;
+}
+
+.guncel-info h2 {
+  margin:50px 0 10px;
+}
+
+.guncel-info h5, h4{
+  margin:10px 0;
+  color: rgba(14, 0, 141, 0.8);
+}
+
+.guncel-info img{
+  width: 100%;
+}
+.guncel-info a{
+  color: rgba(128, 0, 0, 0.815)
+}
+.guncel-info li{
+  padding: 5px 0;
+}
+
+  
+  /*---------------------------------------
       ILGILENDIGIM HASTALIKLAR              
   -----------------------------------------*/
   .hastalik-info {
@@ -1172,6 +1205,7 @@ http://www.tooplate.com/view/2098-health
     .news-info {
       padding: 15px;
       text-align: left;
+    }
 
     #tedavi-div, #ekipman-div{
       padding:0 10px;
@@ -1179,6 +1213,10 @@ http://www.tooplate.com/view/2098-health
     }
     #tedavi-title {
       margin:0;
+    }
+    .guncel-info {
+      width: 90%;
+      margin:auto;
     }
   }
 
