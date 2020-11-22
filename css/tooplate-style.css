@@ -522,38 +522,6 @@ http://www.tooplate.com/view/2098-health
     margin: 0;
   }
 
-  /*---------------------------------------
-     GUNCEL             
-  -----------------------------------------*/
-
-.guncel-info {
-  width: 80%;
-  margin:auto;
-}
-.guncel-info p {
-  text-align: justify;
-  margin:10px 0;
-}
-
-.guncel-info h2 {
-  margin:50px 0 10px;
-}
-
-.guncel-info h5, h4{
-  margin:10px 0;
-  color: rgba(14, 0, 141, 0.8);
-}
-
-.guncel-info img{
-  width: 100%;
-}
-.guncel-info a{
-  color: rgba(128, 0, 0, 0.815)
-}
-.guncel-info li{
-  padding: 5px 0;
-}
-
   
   /*---------------------------------------
       ILGILENDIGIM HASTALIKLAR              
@@ -664,7 +632,9 @@ http://www.tooplate.com/view/2098-health
      GUNCEL            
   -----------------------------------------*/
 
-
+  #guncel-anasayfa {
+    background-color: #a5c422;;
+  }
   .guncel-title {
     margin-left: 10px ;
   }
@@ -688,6 +658,27 @@ http://www.tooplate.com/view/2098-health
     background: #ffffff;
     color: #a5c422;
   }
+
+  
+
+.guncel-info {
+  width: 95%;
+  margin:auto;
+}
+.guncel-info p {
+  text-align: justify;
+  margin:10px 0;
+  color:black;
+}
+
+#guncel-anasayfa h2 {
+  margin:50px 0 10px;
+  color: rgba(128, 0, 0, 0.815)
+}
+
+.guncel-info a{
+  color: rgba(128, 0, 0, 0.815)
+}
 
 
   /*---------------------------------------
