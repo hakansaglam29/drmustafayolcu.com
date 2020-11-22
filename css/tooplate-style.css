@@ -192,7 +192,7 @@ http://www.tooplate.com/view/2098-health
     padding-bottom: 100px;
   }
 
-  #team, #news,
+  #team, #news, #guncel-anasayfa,
   #tedavi, #hastalik {
     position: relative;
     padding-top: 120px;
@@ -388,7 +388,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .navbar-nav {
-    margin-left:100px;
+    margin-left:200px;
   }
 
 
@@ -661,35 +661,32 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-     SERVICE              
+     GUNCEL            
   -----------------------------------------*/
 
-  #service {
-    background: #a5c422;
+
+  .guncel-title {
+    margin-left: 10px ;
   }
 
-  #service h2,
-  #service h4 {
-    color: #ffffff;
+  #güncel h2,
+  #guncel h4 {
+    color: #000000;
   }
 
-  #service p {
-    color: #d9d9d9;
+  #guncel p {
+    color: #000000;
   }
 
-  #service .service-thumb {
+  #guncel .guncel-thumb {
     padding: 0 22px;
   }
 
-  #service .fa {
+  #guncel.fa {
     font-size: 50px;
     margin-bottom: 10px;
     background: #ffffff;
     color: #a5c422;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
-    border-radius: 100%;
   }
 
 
@@ -1085,9 +1082,6 @@ http://www.tooplate.com/view/2098-health
       margin-left:110px;
     }
 
-    #doctor-logo {
-      top:25px
-    }
   }
 
   @media only screen and (max-width: 1100px) {
@@ -1175,7 +1169,9 @@ http://www.tooplate.com/view/2098-health
       top:5px
     }
 
-    #hastalik-container, #tecrube-container, #tedavi-container, #ekipman-container{
+    #hastalik-container, #tecrube-container, 
+    #tedavi-container, #ekipman-container,
+    #guncel-container{
       padding:0 10px;
     }
 
@@ -1255,7 +1251,7 @@ http://www.tooplate.com/view/2098-health
       }
 
       #team, #news,
-      #tedavi {
+      #tedavi, #guncel-anasayfa{
         padding-top: 50px;
       }
 
