@@ -482,11 +482,17 @@ http://www.tooplate.com/view/2098-health
   }
 
   .slider .item-second {
-    background-image: url(../images/slider1.jpg);
+    background-image: url(../images/slider3.jpg);
   }
 
   .slider .item-third {
     background-image: url(../images/slider3.jpg);
+  }
+
+  #kartvizit {
+    max-height: 100%;
+    object-fit: contain;
+    margin: auto;
   }
 
 
